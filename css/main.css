@@ -990,7 +990,7 @@ body {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
 }
-.projectsList__item:hover .projectsList__rolling {
+.projectsList__item:hover .projectsList__rolling, .projectsList__item:focus .projectsList__rolling {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */

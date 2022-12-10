@@ -127,7 +127,7 @@
                 transform: translateY(100%);
       }
       &__item{
-        &:hover{
+        &:hover, &:focus{
             .projectsList__rolling {
                 -webkit-transform: translateY(0);
                         transform: translateY(0);
