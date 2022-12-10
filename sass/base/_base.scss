@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-color);
+}
+
+.conteiner {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--title-color);
+  outline: none;
+}
+
+.list {
+  list-style: none;
+}

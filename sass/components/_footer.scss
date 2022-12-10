@@ -1,0 +1,177 @@
+.footer {
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &-logo {
+    margin-bottom: 19px;
+    display: inline-block;
+  }
+  }
+  .signup__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #2196F3;
+    font-weight: 700;
+    font-size: var(--footer-font-size);
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 28px;
+    margin-left: 12px;
+  }
+  
+  .signup__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .signup__icon {
+    fill: var(--white-color);
+    margin-left: 9px;
+  }
+  .signup__input {
+    outline: none;
+    font-weight: 400;
+    font-size: var(--footer-font-size);
+    line-height: 1.25;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 16px;
+    &:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+  }
+  
+  .signup__input:focus::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .signup__input:focus::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .signup__input:focus:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .signup__input:focus::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .signup__input:focus::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footers-conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  
+  .footer-address__href {
+    font-weight: 400;
+    font-size: var(--font-size);
+    font-style: normal;
+    line-height: 1.7142857143;
+    letter-spacing: 0.03em;
+    color: var(--font-color-address);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+            &:hover, &:focus {
+    color: var(--white-color);
+  }
+  }
+  
+  
+  
+  
+  
+  
+  .left-footer {
+    display: inline-block;
+  }
+  
+  .inFooterjoin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+  }
+  .footer-title {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 1.1428571429;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 20px;
+  }
+  
+  .inFooterjoin__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+             &:hover, &:focus {
+    background-color: var(--main-font-color);
+      }
+  }
+  
+  
+  
+  .inFooterjoin__item {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    margin-right: 10px;
+    &:last-child {
+    margin-right: 0px;
+  }
+  }
+  
+  
+  .inFooterjoin__icon {
+    fill: var(--white-color);
+  }
