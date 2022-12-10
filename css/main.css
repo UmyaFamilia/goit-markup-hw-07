@@ -929,6 +929,10 @@ body {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.projectsList__link:hover .projectsList__rolling, .projectsList__link:focus .projectsList__rolling {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
 .projectsList__h3 {
   font-size: var(--projects-list-font-size);
   line-height: 2;
@@ -989,8 +993,4 @@ body {
   transition-duration: 250ms;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
-}
-.projectsList__item:hover .projectsList__rolling, .projectsList__item:focus .projectsList__rolling {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
